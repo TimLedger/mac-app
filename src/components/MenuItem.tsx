@@ -13,8 +13,8 @@ function MenuItem({ item, onAdd }: MenuItemProps) {
       <img src={item.imageSrc} alt={item.name} />  
       <div>
         <h3>{item.name}</h3>
-        <p>Price: ${item.price}</p>
-        <button onClick={() => onAdd(item)}>Add</button> 
+        <p>Цена: {item.price} ₽</p>
+        <button onClick={() => onAdd(item)}>Добавить</button> 
       </div>
     </div>
   );
